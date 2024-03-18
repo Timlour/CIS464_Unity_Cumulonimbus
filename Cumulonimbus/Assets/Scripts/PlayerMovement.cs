@@ -1,6 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.Tilemaps;
+//using UnityEditor.Tilemaps;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -12,12 +12,12 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Transform groundCheck;
     [SerializeField] private LayerMask groundLayer;
-    private bool isCloseToLadder = false; // set true when player is near ladder but has not started climbing yet
+    /*private bool isCloseToLadder = false; // set true when player is near ladder but has not started climbing yet
     private bool climbHeld = false; // set true when player presses and holds climb button
     private bool hasStartedClimb = false; // control bool used to prevent other player actions while climbing
     private Transform ladder;
     private float vertical;
-    private float climbSpeed = 0.2f;
+    private float climbSpeed = 0.2f;*/
     // Start is called before the first frame update
     void Start()
     {
@@ -29,7 +29,7 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         horizontal = Input.GetAxisRaw("Horizontal");
-        vertical = Input.GetAxisRaw("Vertical") * climbSpeed;
+        //vertical = Input.GetAxisRaw("Vertical") * climbSpeed;
 
         if (Input.GetKeyDown(KeyCode.A) && IsGrounded()) // Press A to jump
         {
@@ -43,7 +43,7 @@ public class PlayerMovement : MonoBehaviour
 
         Flip();
 
-        climbHeld = (isCloseToLadder && Input.GetKey(KeyCode.DownArrow)) ? true : false;
+       // climbHeld = (isCloseToLadder && Input.GetKey(KeyCode.DownArrow)) ? true : false;
 
     }
 
@@ -51,7 +51,7 @@ public class PlayerMovement : MonoBehaviour
     {
         rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
 
-        // Climbing
+        /* Climbing
         if (hasStartedClimb && !climbHeld)
         {
             if (horizontal > 0 || horizontal < 0) ResetClimbing();
@@ -82,7 +82,7 @@ public class PlayerMovement : MonoBehaviour
                     newPos = transform.position - forwardDirection * Time.deltaTime * climbSpeed;
                 if (newPos != Vector3.zero) rb.MovePosition(newPos);
             }
-        }
+        }*/
     }
 
     private bool IsGrounded()
@@ -101,7 +101,7 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    private void OnTriggerStay2D(Collider2D collision)
+    /*private void OnTriggerStay2D(Collider2D collision)
     {
  
         if (collision.gameObject.tag.Equals("Ladder"))
@@ -109,14 +109,14 @@ public class PlayerMovement : MonoBehaviour
             isCloseToLadder = true;
             this.ladder = collision.transform;
         }
-    }
+    }*/
 
-    public static float Half(float value)
+    /*public static float Half(float value)
     {
         return Mathf.Floor(value) + 0.5f;
-    }
+    }*/
 
-    private void ResetClimbing()
+    /*private void ResetClimbing()
     {
         if (hasStartedClimb)
         {
@@ -124,7 +124,7 @@ public class PlayerMovement : MonoBehaviour
             rb.bodyType = RigidbodyType2D.Dynamic;
             transform.position = new Vector3(transform.position.x, Half(transform.position.y), transform.position.z);
         }
-    }
+    }*/
 
 
 }
