@@ -28,3 +28,5 @@ public class LadderHandlers : MonoBehaviour
         GetComponent<BoxCollider2D>().size = new Vector2(width, height);
     }
 }
+
+
