@@ -24,14 +24,15 @@ public class PlayerMovement : MonoBehaviour
     {
         horizontal = Input.GetAxisRaw("Horizontal");
 
-        if (Input.GetKeyDown(KeyCode.A) && IsGrounded()) // Press A to jump
+        if (Input.GetKeyDown(KeyCode.Space) && IsGrounded()) // Press Space Bar to jump
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpingPower);
+            //rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * 0.5f);
         }
 
         /*if (Input.GetButtonUp("Jump") && rb.velocity.y > 0f)
         {
-            rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * 0.5f);
+            
         }*/
 
         Flip();

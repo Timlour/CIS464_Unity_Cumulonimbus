@@ -2866,7 +2866,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 303d9cc5a96a98348a2f80b1d517c7da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 6
+  speed: 8
   jumpingPower: 16
   rb: {fileID: 763407251}
   groundCheck: {fileID: 2060239834}
