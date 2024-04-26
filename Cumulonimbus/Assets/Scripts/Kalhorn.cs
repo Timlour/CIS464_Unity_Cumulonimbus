@@ -6,6 +6,7 @@ public class Kalhorn : MonoBehaviour
 {
     public float speed = 0.8f;
     public float range = 3;
+    public bool canMove = true;
 
     float startingX;
     int direction = 1;
@@ -18,10 +19,12 @@ public class Kalhorn : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
+        if(canMove == true) {
         transform.Translate(Vector2.right * speed * Time.deltaTime * direction); //move right, Time.deltaTime to make framerate independent
         if (transform.position.x < startingX || transform.position.x > startingX + range)
         {
             direction *= -1; // change direction
+        }
         }
     }
 }

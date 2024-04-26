@@ -158,6 +158,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 0.8
   range: 3
+  canMove: 1
 --- !u!114 &101307766
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -171,6 +172,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
+  isAlive: 0
 --- !u!61 &101307767
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -230,6 +232,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3
   range: 7
+  canMove: 1
 --- !u!212 &101307769
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -505,6 +508,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 0.8
   range: 3
+  canMove: 1
 --- !u!114 &138814186
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -518,6 +522,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
+  isAlive: 0
 --- !u!61 &138814187
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -577,6 +582,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3
   range: 7
+  canMove: 1
 --- !u!212 &138814189
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1085,6 +1091,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 0.8
   range: 3
+  canMove: 1
 --- !u!114 &218708414
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1098,6 +1105,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
+  isAlive: 0
 --- !u!61 &218708415
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1157,6 +1165,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3
   range: 7
+  canMove: 1
 --- !u!212 &218708417
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1516,6 +1525,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 0.8
   range: 3
+  canMove: 1
 --- !u!114 &363803240
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1529,6 +1539,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
+  isAlive: 0
 --- !u!61 &363803241
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1588,6 +1599,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3
   range: 7
+  canMove: 1
 --- !u!212 &363803243
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1690,6 +1702,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 0.8
   range: 3
+  canMove: 1
 --- !u!114 &369872689
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1703,6 +1716,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
+  isAlive: 0
 --- !u!61 &369872690
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1762,6 +1776,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3
   range: 7
+  canMove: 1
 --- !u!212 &369872692
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1849,6 +1864,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 0.8
   range: 3
+  canMove: 1
 --- !u!114 &372393949
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1862,6 +1878,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
+  isAlive: 0
 --- !u!61 &372393950
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1921,6 +1938,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3
   range: 7
+  canMove: 1
 --- !u!212 &372393952
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2280,6 +2298,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 0.8
   range: 3
+  canMove: 1
 --- !u!114 &630630370
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2293,6 +2312,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
+  isAlive: 0
 --- !u!61 &630630371
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2352,6 +2372,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3
   range: 7
+  canMove: 1
 --- !u!212 &630630373
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2581,6 +2602,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 0.8
   range: 3
+  canMove: 1
 --- !u!114 &700095493
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2594,6 +2616,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
+  isAlive: 0
 --- !u!61 &700095494
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2653,6 +2676,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3
   range: 7
+  canMove: 1
 --- !u!212 &700095496
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2997,6 +3021,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 0.8
   range: 3
+  canMove: 1
 --- !u!114 &724363971
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3010,6 +3035,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
+  isAlive: 0
 --- !u!61 &724363972
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3069,6 +3095,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3
   range: 7
+  canMove: 1
 --- !u!212 &724363974
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3490,6 +3517,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 0.8
   range: 3
+  canMove: 1
 --- !u!114 &829275845
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3503,6 +3531,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
+  isAlive: 0
 --- !u!61 &829275846
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3562,6 +3591,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3
   range: 7
+  canMove: 1
 --- !u!212 &829275848
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4064,6 +4094,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 0.8
   range: 3
+  canMove: 1
 --- !u!114 &1060390261
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4077,6 +4108,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
+  isAlive: 0
 --- !u!61 &1060390262
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4136,6 +4168,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3
   range: 7
+  canMove: 1
 --- !u!212 &1060390264
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4381,6 +4414,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 0.8
   range: 3
+  canMove: 1
 --- !u!114 &1106274667
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4394,6 +4428,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
+  isAlive: 0
 --- !u!61 &1106274668
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4453,6 +4488,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3
   range: 7
+  canMove: 1
 --- !u!212 &1106274670
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4742,6 +4778,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 0.8
   range: 3
+  canMove: 1
 --- !u!114 &1246273658
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4755,6 +4792,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
+  isAlive: 0
 --- !u!61 &1246273659
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4814,6 +4852,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3
   range: 7
+  canMove: 1
 --- !u!212 &1246273661
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5033,7 +5072,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1380050854}
-  - component: {fileID: 1380050852}
   - component: {fileID: 1380050851}
   - component: {fileID: 1380050850}
   - component: {fileID: 1380050849}
@@ -5060,6 +5098,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 0.8
   range: 3
+  canMove: 0
 --- !u!114 &1380050850
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5073,6 +5112,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
+  isAlive: 1
 --- !u!61 &1380050851
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5118,20 +5158,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.6049833, y: 0.90641284}
   m_EdgeRadius: 0
---- !u!114 &1380050852
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1380050848}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4a99224c4f7b72d4f89df186ad0fd9bc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 3
-  range: 7
 --- !u!4 &1380050854
 Transform:
   m_ObjectHideFlags: 0
@@ -5194,9 +5220,9 @@ AudioSource:
   m_GameObject: {fileID: 1380050848}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: d7a842fc2e94941b7a53208a3d1d8c6f, type: 2}
   m_audioClip: {fileID: 8300000, guid: 744eee22a9cb24fd79e775a70ebd7a35, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -5640,6 +5666,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 0.8
   range: 3
+  canMove: 1
 --- !u!114 &1504157756
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5653,6 +5680,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
+  isAlive: 0
 --- !u!61 &1504157757
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5712,6 +5740,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3
   range: 7
+  canMove: 1
 --- !u!212 &1504157759
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6382,6 +6411,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 0.8
   range: 3
+  canMove: 1
 --- !u!114 &1695291682
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6395,6 +6425,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
+  isAlive: 0
 --- !u!61 &1695291683
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6454,6 +6485,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3
   range: 7
+  canMove: 1
 --- !u!212 &1695291685
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6625,6 +6657,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3
   range: 7
+  canMove: 1
 --- !u!212 &1753051267
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6751,6 +6784,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 0.8
   range: 3
+  canMove: 1
 --- !u!114 &1753051271
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6764,6 +6798,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
+  isAlive: 0
 --- !u!1 &1765910982
 GameObject:
   m_ObjectHideFlags: 0
@@ -118491,6 +118526,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 0.8
   range: 3
+  canMove: 1
 --- !u!114 &2014240540
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -118504,6 +118540,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
+  isAlive: 0
 --- !u!61 &2014240541
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -118563,6 +118600,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3
   range: 7
+  canMove: 1
 --- !u!212 &2014240543
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -118650,6 +118688,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 0.8
   range: 3
+  canMove: 1
 --- !u!114 &2025841642
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -118663,6 +118702,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
+  isAlive: 0
 --- !u!61 &2025841643
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -118722,6 +118762,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3
   range: 7
+  canMove: 1
 --- !u!212 &2025841645
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -118855,6 +118896,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 0.8
   range: 3
+  canMove: 1
 --- !u!114 &2068937885
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -118868,6 +118910,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
+  isAlive: 0
 --- !u!61 &2068937886
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -118927,6 +118970,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3
   range: 7
+  canMove: 1
 --- !u!212 &2068937888
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -119187,6 +119231,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 0.8
   range: 3
+  canMove: 1
 --- !u!114 &2143524178
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -119200,6 +119245,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
+  isAlive: 0
 --- !u!61 &2143524179
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -119259,6 +119305,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3
   range: 7
+  canMove: 1
 --- !u!212 &2143524181
 SpriteRenderer:
   m_ObjectHideFlags: 0
