@@ -39,7 +39,6 @@ public class RangeWeapon : MonoBehaviour {
     }
 
     public void WeaponFire(bool Trigger){
-        Debug.Log("Range is " + Trigger);
         isAIFiring = Trigger;
     }
 }

@@ -7,6 +7,7 @@ TagManager:
   - Ladder
   - Range
   - Melee
+  - Enemy
   layers:
   - Default
   - TransparentFX
