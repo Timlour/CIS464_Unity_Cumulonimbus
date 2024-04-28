@@ -6,6 +6,7 @@ public class Health : MonoBehaviour
 {
     public int maxHealth = 600;
     public int currentHealth;
+    public GameObject gameOverMenu;
 
     // Start is called before the first frame update
     void Start()
@@ -22,6 +23,7 @@ public class Health : MonoBehaviour
             Debug.Log("You died!");
             Destroy(gameObject);
             Time.timeScale = 0f; // freeze time
+            gameOverMenu.SetActive(true); // enable Game Over Menu
         }
     }
 }
