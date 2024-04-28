@@ -23,8 +23,6 @@ public class PlayerMovement : MonoBehaviour
     {
         audioSrc = GetComponent<AudioSource>();
         animMachine = GetComponent<Animator>();
-        AudioManager.instance.Play("WorldOfPain");
-        AudioManager.instance.Play("RainThunder");
         StartCoroutine(PreFallingDelay());
     }
 
