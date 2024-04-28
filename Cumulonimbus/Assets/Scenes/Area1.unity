@@ -787,6 +787,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1467773985530567317, guid: 4e59ebacd49b9403a8136b07b8df2e78, type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1590359413319849824, guid: 4e59ebacd49b9403a8136b07b8df2e78, type: 3}
       propertyPath: m_Name
       value: Captain Combo (Prefab)
@@ -2728,7 +2732,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: f2b4134b3449a4147a381373d0bcb677, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3689,7 +3693,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3621553353482892818, guid: 12bc2a1c0f1e84bcb9b875b8b1739df1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -5.29
+      value: -5.22
       objectReference: {fileID: 0}
     - target: {fileID: 3621553353482892818, guid: 12bc2a1c0f1e84bcb9b875b8b1739df1, type: 3}
       propertyPath: m_LocalPosition.z
