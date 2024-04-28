@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
 {
@@ -41,4 +42,15 @@ public class PauseMenu : MonoBehaviour
         Time.timeScale = 1f; // unfreeze time
         isPaused = false; // not paused
     }
+
+    /*public void GoToMainMenu()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("Title Screen"); // Go to Title Screen
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit(); // Does not work in editor, only in build
+    }*/
 }
