@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class Health : MonoBehaviour
 {
-    public int maxHealth = 600;
-    public int currentHealth;
+    public float maxHealth = 600;
+    public float currentHealth;
     public GameObject gameOverMenu;
+    public GameObject healthBar;
 
     // Start is called before the first frame update
     void Start()
@@ -23,6 +24,7 @@ public class Health : MonoBehaviour
             Debug.Log("You died!");
             Destroy(gameObject);
             Time.timeScale = 0f; // freeze time
+            healthBar.SetActive(false); // Disable health bar
             gameOverMenu.SetActive(true); // enable Game Over Menu
         }
     }
