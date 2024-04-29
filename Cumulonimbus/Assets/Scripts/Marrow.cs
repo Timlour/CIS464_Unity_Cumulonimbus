@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Marrow : MonoBehaviour
+public class Marrow : MonoBehaviour // Thrown together for the final Project 2 build
 {
     public int contactDamage = 180;
     private void OnTriggerEnter2D(Collider2D other)
