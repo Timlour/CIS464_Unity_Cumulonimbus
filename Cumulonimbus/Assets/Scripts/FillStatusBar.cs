@@ -27,10 +27,10 @@ public class FillStatusBar : MonoBehaviour
         }
 
         float fillValue = playerHealth.currentHealth / playerHealth.maxHealth; // currentHealth and maxHealth must be type float in Health.cs
-        if (fillValue <= slider.maxValue / 3)
+        /*if (fillValue <= slider.maxValue / 3) // Does not return to red on heal
         {
             fillImage.color = Color.blue; // critical condition
-        }
+        }*/
         slider.value = fillValue;
     }
 }

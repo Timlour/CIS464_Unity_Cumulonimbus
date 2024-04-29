@@ -28,4 +28,13 @@ public class Health : MonoBehaviour
             gameOverMenu.SetActive(true); // enable Game Over Menu
         }
     }
+
+    public void Heal(int amount)
+    {
+        currentHealth += amount;
+        if (currentHealth > maxHealth)
+        {
+            currentHealth = maxHealth;
+        }
+    }
 }
